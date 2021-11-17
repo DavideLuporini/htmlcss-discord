@@ -13,22 +13,29 @@ body{
 .container{
     max-width: 1200px;
     margin: 0 auto;
-    background-color: brown;
     text-align: center;
 }
 .w-60{
     width: 60%;
 }
+.w-40{
+    width: 40%;
+}
 .w-20{
     width: 20%;
+}
+
+.w-30{
+    width: 30%;
 }
 .col{
     float: left;
 }
 
 .clearfix::after{
-    max-width: 1200px;
-    margin: 0 auto;
+    content: '';
+    display: table;
+    clear: both;
     
 }
 
@@ -39,6 +46,11 @@ body{
     color: black;
 }
 
+.text-color-lessblack{
+    color: #45484a;
+
+}
+
 .bgc-white{
     background-color: white;
 }
@@ -46,11 +58,15 @@ body{
     background-color: black;
 }
 
+
 .f-size-16px{
     font-size: 16px;
 }
 .f-size-20px{
     font-size: 20px;
+}
+.f-size-50px{
+    font-size: 50px;
 }
 
 .btn-small{
@@ -71,11 +87,19 @@ body{
 .uppercase{
     text-transform: uppercase;
 }
+.section-title{
+    margin-bottom: 20px;
+    font-size: 50px;
+}
+
+.margin-left-x{
+    margin-left: 50px;
+}
 /* structure */
 /* header */
 header{
     background-color: #3161e0;
-
+    
 }
 .topbar{
     height: 80px;
@@ -132,4 +156,20 @@ li:hover{
     background-color: black;
     color: white;   
 }
+
+/* fine header - inizio main */
+
+section .container{
+    margin-top: 100px;
+}
+
+
+.section-one{
+    height: 600px;
+}
+.img-text{
+    text-align: left;
+    margin-top: 30px;
+}
+
 
