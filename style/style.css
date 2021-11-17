@@ -1,0 +1,19 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.clearfix{
+    clear: both;
+    content: '';
+    display: table;
+}
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+body{
+    font-family: Whitney, Helvetica Neue, Helvetica,Arial, sans-serif;
+}
