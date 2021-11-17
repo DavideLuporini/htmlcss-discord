@@ -29,7 +29,7 @@ body{
 .clearfix::after{
     max-width: 1200px;
     margin: 0 auto;
-
+    
 }
 
 .text-white{
@@ -42,7 +42,35 @@ body{
 .bgc-white{
     background-color: white;
 }
+.bgc-black{
+    background-color: black;
+}
 
+.f-size-16px{
+    font-size: 16px;
+}
+.f-size-20px{
+    font-size: 20px;
+}
+
+.btn-small{
+    padding: 10px 15px;
+    border-radius: 25px;
+    border: 2px;
+    text-decoration: none;
+}
+.btn-big{
+    padding: 15px 25px;
+    border-radius: 25px;
+    border: 2px;
+    text-decoration: none;
+    display: inline-block;
+    margin: 50px 10px 0 10px;
+}
+
+.uppercase{
+    text-transform: uppercase;
+}
 /* structure */
 /* header */
 header{
@@ -64,9 +92,44 @@ ul li{
     vertical-align: middle;
 }
 
-.btn-access{
-    padding: 10px 15px;
-    border-radius: 25px;
-    border: 2px;
-    text-decoration: none;
+
+.jumbo{
+    height: 500px;
+    background-image: url(../img/jumbo.png);
+    background-size: cover;
+    background-repeat: no-repeat;
 }
+.jumbo-text{
+    text-align: center;
+    width: 650px;
+    line-height: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.title{
+    margin-bottom: 40px;
+    font-size: 50px;
+}
+
+li:hover{
+    text-decoration: underline;
+    text-decoration-color: lightblue;
+    color: lightblue;
+}
+
+.w-20 a:hover{
+    color: white;
+    background-color:darkblue;
+}
+
+#hover-white:hover{
+    background-color: white;
+    color: black;   
+}
+#hover-black:hover{
+    background-color: black;
+    color: white;   
+}
+
