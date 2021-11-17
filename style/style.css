@@ -58,15 +58,18 @@ body{
     background-color: black;
 }
 
+.bgc-lightblue{
+    background-color: lightblue ;
+}
 
-.f-size-16px{
-    font-size: 16px;
+.f-size-50px{
+    font-size: 50px;
 }
 .f-size-20px{
     font-size: 20px;
 }
-.f-size-50px{
-    font-size: 50px;
+.f-size-16px{
+    font-size: 16px;
 }
 
 .btn-small{
@@ -173,3 +176,22 @@ section{
 }
 
 
+.header-section{
+    background-color: white;
+}
+
+.big-img-title{
+    margin-bottom: 20px;
+}
+
+.big-img{
+    transform: scale(1.2);
+}
+
+.section-four{
+    margin-bottom: 50px;
+}
+
+#footer-main{
+    height: 500px;
+}
