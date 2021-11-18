@@ -273,3 +273,20 @@ ul.vertical-menu a{
     background-color: darkblue;
     color: lightblue;
 }
+
+/* bonus */
+
+.footer-section-four{
+    background-image: url(../img/stars.svg);
+    background-position: top;
+    background-repeat: no-repeat;
+}
+
+
+/* .waves{
+    background-image: url(../img/wave.svg);
+    background-size: 1300px 300px;
+    background-repeat: repeat-y;
+    display: block;
+    background-position: center;
+} */
